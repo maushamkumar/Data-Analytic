@@ -1,35 +1,38 @@
 ### Cryptocurrency Analysis Report
 
-**Introduction**
-The purpose of this project was to fetch live data for the top 50 cryptocurrencies and analyze it. Key metrics include market capitalization, 24-hour price changes, and trading volumes.
+**Introduction**  
+This project aims to fetch live data for the top 50 cryptocurrencies and analyze it. The main metrics used include market capitalization, price changes over 24 hours, and trading volume.
 
 **Insights**
-1. Top 5 Cryptocurrencies by Market Cap:
+1. **Top 5 Cryptocurrencies by Market Cap**:
    - Bitcoin: $1.2T
    - Ethereum: $500B
    - Binance Coin: $100B
    - ...
-
-2. Average Price of Top 50 Cryptocurrencies: $X,XXX.XX
-3. Highest 24-Hour Price Change: CoinName (+XX%)
-4. Lowest 24-Hour Price Change: CoinName (-XX%)
+   
+2. **Average Price of Top 50 Cryptocurrencies**: $X,XXX.XX  
+3. **Highest 24-Hour Price Change**: CoinName (+XX%)  
+4. **Lowest 24-Hour Price Change**: CoinName (-XX%)
 
 **Challenges Faced**
-- Rate limiting from the API.
-- Automating updates in Google Sheets.
+- Encountered rate limits while fetching data from the API.
+- Set up live updates in Google Sheets.
 
-**Conclusion**
-This project successfully demonstrates real-time cryptocurrency data integration and analysis.
+**Conclusion**  
+The project successfully fetches real-time data for cryptocurrencies, performs analysis, and presents it in a live-updating Google Sheet.
 
-# Project Structure
-bash '''
+---
+
+### Project Structure
+
+```bash
 project/
 │
-├── main.py
-├── credentials.json      # If required, include the service account credentials
-├── analysis_report.pdf
-└── README.md
-'''
+├── main.py                 # Python script for fetching and analyzing cryptocurrency data
+├── credentials.json        # Service account credentials for Google Sheets (if required)
+├── analysis_report.pdf     # PDF report summarizing the analysis and insights
+└── README.md               # This file, providing instructions and project overview
+```
 
 # Cryptocurrency Live Data Analysis
 
