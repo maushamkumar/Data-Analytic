@@ -22,12 +22,14 @@ The purpose of this project was to fetch live data for the top 50 cryptocurrenci
 This project successfully demonstrates real-time cryptocurrency data integration and analysis.
 
 # Project Structure
+bash '''
 project/
 │
 ├── main.py
 ├── credentials.json      # If required, include the service account credentials
 ├── analysis_report.pdf
 └── README.md
+'''
 
 # Cryptocurrency Live Data Analysis
 
