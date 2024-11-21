@@ -45,7 +45,8 @@ This project fetches live cryptocurrency data, analyzes it, and displays the res
 - `analysis_report.pdf`: Summary of key findings.
 
 ## Google Sheet Link
-[Live Google Sheet]([https://docs.google.com/spreadsheets/d/1yJlKex97GWe7hnmr6HC09MdfmbhqrUh_4TFThOEfHkc/edit?gid=1695350553#gid=1695350553])
+[Live Google Sheet](https://docs.google.com/spreadsheets/d/1yJlKex97GWe7hnmr6HC09MdfmbhqrUh_4TFThOEfHkc/edit?gid=1695350553#gid=1695350553)
+
 
 ## How to Run
 1. Install dependencies: `pip install -r requirements.txt`
